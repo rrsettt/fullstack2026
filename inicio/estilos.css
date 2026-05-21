@@ -1,0 +1,30 @@
+nav{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 30px;
+}
+
+.linksNav{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+}
+
+.logoBox{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+.logoImg{
+    height:55px;
+}
+
+.btnBox{
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+}
