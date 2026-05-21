@@ -1,0 +1,224 @@
+body{
+font-family:'Poppins',sans-serif;
+background:#fce8b3;
+color:#093C5D;
+margin:0;
+padding:20px;
+}
+
+h1,h2{
+text-align:center;
+margin-bottom:20px;
+}
+
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#50aaaf;
+padding:18px 30px;
+border-radius:15px;
+}
+
+.logo h1{
+margin:0;
+font-size:38px;
+}
+
+.nav{
+display:flex;
+gap:30px;
+}
+
+.nav a{
+color:white;
+text-decoration:none;
+font-weight:600;
+font-size:17px;
+transition:.3s;
+}
+
+.nav a:hover{
+color:#ffe066;
+}
+
+.perfil-container{
+display:flex;
+gap:40px;
+background:#50aaaf;
+padding:35px;
+border-radius:25px;
+max-width:1200px;
+margin:40px auto;
+border:3px solid white;
+}
+
+.lado-izquierdo{
+width:350px;
+display:flex;
+flex-direction:column;
+gap:25px;
+}
+
+.foto-container,
+.descripcion-personal,
+.habilidades,
+.horarios{
+background:#50aaaf;
+border:3px solid white;
+border-radius:25px;
+}
+
+.foto-container{
+padding:12px;
+}
+
+.foto-container img{
+width:100%;
+border-radius:20px;
+display:block;
+}
+
+.descripcion-personal{
+padding:25px;
+}
+
+.descripcion-personal p,
+li{
+line-height:1.7;
+font-size:16px;
+}
+
+.habilidades{
+flex:1;
+padding:30px;
+}
+
+ol{
+padding-left:25px;
+}
+
+li{
+margin-bottom:25px;
+}
+
+h3{
+margin-bottom:8px;
+font-size:22px;
+}
+
+.horarios{
+padding:35px;
+max-width:1200px;
+margin:30px auto;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+th,
+td{
+border:1px solid #093C5D;
+padding:15px;
+text-align:center;
+}
+
+th{
+background:#45a1a6;
+color:white;
+}
+
+footer{
+text-align:center;
+margin-top:40px;
+padding:25px;
+}
+
+footer a{
+color:#0B2D72;
+margin:0 15px;
+font-weight:bold;
+text-decoration:none;
+font-size:18px;
+transition:.3s;
+}
+
+footer a:hover{
+color:#ffe066;
+}
+
+form{
+max-width:400px;
+margin:40px auto;
+background:#50aaaf;
+padding:40px;
+border-radius:20px;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+form label{
+font-size:18px;
+}
+
+form input,
+form textarea{
+padding:12px;
+border:none;
+border-radius:10px;
+font-size:16px;
+outline:none;
+}
+
+form textarea{
+height:120px;
+}
+
+form input[type="submit"]{
+background:#093C5D;
+color:white;
+font-weight:bold;
+cursor:pointer;
+}
+
+embed{
+border-radius:5%;
+}
+
+@media (max-width:768px){
+
+.header{
+flex-direction:column;
+gap:15px;
+}
+
+.nav{
+justify-content:center;
+}
+
+.perfil-container{
+flex-direction:column;
+align-items:center;
+}
+
+.lado-izquierdo{
+width:100%;
+}
+
+.foto-container img{
+width:220px;
+margin:auto;
+}
+
+.descripcion-personal p{
+text-align:center;
+}
+
+table{
+font-size:12px;
+}
+
+}
